@@ -45,6 +45,9 @@ mysql -u w3schools -p < NorthWindDB2.sql
 Aanloggen als gebruiker w3schools aanloggen:
 ```bash
 mysql -u w3schools -p
+```
+
+```bash
 USE northwind;
 SELECT * from Customers;
 ```
