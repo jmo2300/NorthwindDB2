@@ -47,9 +47,41 @@ Aanloggen als gebruiker w3schools aanloggen:
 mysql -u w3schools -p
 ```
 
+Controlleer of er customers in de database zitten:
 ```bash
 USE northwind;
-SELECT * from Customers;
+SELECT * from customers;
 ```
 
 Vanaf nu kan je alle oefeningen (zowel lezen als schrijven, verwijderen) maken op deze database.
+
+Indien je in de volgende les opnieuw moet inloggen in deze "Northwind"-database, dan doe je dit enkel met volgende commando's.
+
+Als gebruiker w3schools deze database laden:
+```bash
+mysql -u w3schools -p
+```
+het paswoord is   w3schoolspw
+
+Met volgende commando's kan je kijken in SQL welke database er beschikbaar is (wanneer je ingelogd bent in SQL)
+```bash
+show databases;
+```
+Nu je hier ook de database "Northwind" ziet staan kan je deze gebruiken door:
+
+Als gebruiker w3schools deze database laden:
+```bash
+use northwind;
+```
+
+Wil je de tabellen van deze database bekijken, dan doe je dit met:
+Als gebruiker w3schools deze database laden:
+```bash
+show tables;
+```
+vanaf hier kan je alle SQL-commando's uit de les toepassen op deze database (zowel lezen, schrijven, aanpassen en verwijderen)
+vb
+Als gebruiker w3schools deze database laden:
+```bash
+select * from products;
+```
