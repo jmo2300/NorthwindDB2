@@ -55,6 +55,8 @@ SELECT * from customers;
 
 Vanaf nu kan je alle oefeningen (zowel lezen als schrijven, verwijderen) maken op deze database.
 
+---
+
 Indien je in de volgende les opnieuw moet inloggen in deze "Northwind"-database, dan doe je dit enkel met volgende commando's.
 
 Als gebruiker w3schools deze database laden:
