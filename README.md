@@ -37,7 +37,7 @@ FLUSH PRIVILEGES;
 QUIT;
 ```
 
-Als gebruiker w3schools deze database laden:
+Als gebruiker w3schools deze database laden (met paswoord w3schoolspw):
 ```bash
 mysql -u w3schools -p < NorthWindDB2.sql
 ```
